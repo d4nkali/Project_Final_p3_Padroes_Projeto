@@ -1,7 +1,37 @@
-# Ignorar pasta vscode
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
 
-.vscode/*
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Ignorar pastas do intellij
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-.idea/*
+### VS Code ###
+.vscode/
+lib/
+
+### Mac OS ###
+.DS_Store
+
+# Ignorar arquivos de texto
+
+*.pdf
+*.doc
+*.docx
