@@ -1,0 +1,7 @@
+# Ignorar pasta vscode
+
+.vscode/*
+
+# Ignorar pastas do intellij
+
+.idea/*
