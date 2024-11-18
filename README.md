@@ -1,2 +1,3 @@
-# template_uniesp_projects
-Repositório de exemplo para criar outros repositórios para projetos da faculdade.
+# Projeto Fianl Padroes de Projeto p3
+
+Projeto da cadeira de Padroes de Projeto do jogo The Alchemist.
