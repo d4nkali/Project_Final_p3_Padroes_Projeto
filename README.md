@@ -1,8 +1,8 @@
 # Projeto Final Padroes de Projeto p3
 
-# The Alchemist - Jogo de RPG 
+# The Alchemist
 
-**The Alchemist** é um jogo simples em Java onde você controla um Alquimista, coleta materiais, cria armas e enfrenta um poderoso Boss.
+**The Alchemist** é um jogo em Java onde você controla um Alquimista, coleta materiais, cria armas e enfrenta um poderoso Boss.
 
 ## 💡 Funcionalidades
 
