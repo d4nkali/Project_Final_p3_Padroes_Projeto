@@ -1,8 +1,6 @@
-# Projeto Final Padroes de Projeto p3
+# Projeto Final Padrões de Projeto p3 - **The Alchemist**
 
-# The Alchemist
-
-**The Alchemist** é um jogo em Java onde você controla um Alquimista, coleta materiais, cria armas e enfrenta um poderoso Boss.
+**The Alchemist** é um jogo em **Java** onde você controla um Alquimista, coleta materiais, cria armas e enfrenta um poderoso Boss.
 
 ## 💡 Funcionalidades
 
@@ -41,7 +39,7 @@
      - Loop de turnos.
      - Coleta de materiais.
      - Combate entre o Alquimista e o Boss.
-    
+
 ## 🎮 Instruções de Jogo
 
 Ao iniciar o jogo, insira o nome do seu personagem.
@@ -54,10 +52,3 @@ Ao final, escolha se deseja jogar novamente.
 
 - Java Development Kit (JDK 8 ou superior).
 - Editor de texto ou IDE como Eclipse, IntelliJ IDEA ou VSCode.
-
-## 🧱 Melhorias Futuras
-
-- Adicionar mais tipos de materiais e armas.
-- Implementar efeitos visuais no terminal.
-- Criar múltiplos níveis de Boss.
-- Salvar o progresso do jogo.
