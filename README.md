@@ -41,6 +41,7 @@
      - Combate entre o Alquimista e o Boss.
 
 ## 🎮 Instruções de Jogo
+
 Ao iniciar o jogo, insira o nome do seu personagem.
 Escolha dois materiais por turno para criar armas.
 Ataque o Boss e defenda-se dos ataques dele.
@@ -48,5 +49,6 @@ O jogo termina quando o Boss ou o jogador perder toda a vida.
 Ao final, escolha se deseja jogar novamente.
 
 ## 🔧 Requisitos
-Java Development Kit (JDK 8 ou superior).
-Editor de texto ou IDE como Eclipse, IntelliJ IDEA ou VSCode.
+
+- Java Development Kit (JDK 8 ou superior).
+- Editor de texto ou IDE como Eclipse, IntelliJ IDEA ou VSCode.
