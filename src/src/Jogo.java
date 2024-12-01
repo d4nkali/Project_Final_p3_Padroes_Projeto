@@ -90,6 +90,45 @@ public class Jogo {
 				// Criar arma após coletar os materiais
 				alquimista.criarArma();
 
+				// Adiciona o timer (simulação de tempo entre ações)
+				try {
+					System.out.println("\n  A BATALHA COMEÇOU!");
+					Thread.sleep(500); // Espera 1 segundo para aumentar a tensão
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+
+				// Exibe a arte ASCII das espadas batalhando
+				System.out.println("         .::.                                  .::.         ");
+				System.out.println("         .=%%=+##*:                      .*##+=%%=.         ");
+				System.out.println("         ..%+#*:::**.                  .**:::+#+%.          ");
+				System.out.println("          .=*=+%+::-#-.              .-%-::=%+=*+           ");
+				System.out.println("           .#+==+%-::=%.            .%+::-%+==+#:           ");
+				System.out.println("            .=%===+%:::**.        .**:::%+===%=.            ");
+				System.out.println("              .=%+==*#::-#:.    .:#-::#*==+%=.              ");
+				System.out.println("                .=%+==#*::+*....*+::*#==+%=.                ");
+				System.out.println("                  .=%+=+#+::#==#::+#+=+%=.                   ");
+				System.out.println("                    .=%+=+%=:-#-=%+=+%=.                     ");
+				System.out.println("                       -%+=+%-:*#=+%=.                       ");
+				System.out.println("                        .+%+=*#-:%+.                         ");
+				System.out.println("                .:*#=. :#=:#%+=#*:=#:. =#*:.                 ");
+				System.out.println("               .=%*=%-+#-*#++##++#*-#+-%=*%=.                ");
+				System.out.println("                  .#++%*+#+#-..-#*#++%++#..                  ");
+				System.out.println("                 ..+%=:*%%:     .:%%*-=%+..                  ");
+				System.out.println("                .+@#%#@%-*#-.  .-##-%@#%#@+.                ");
+				System.out.println("              .=%%#%#%:.-%-#:  :#-%-..##%*%%=..              ");
+				System.out.println("           ..+%*+%%#-.  .-%-.   :%-.  .-#%%+*%+..           ");
+				System.out.println("           :#=++%#+.                    .+#%++=#:           ");
+				System.out.println("           .#=++#.                        .#++=#:           ");
+				System.out.println("            .:-..                          ..-:.             ");
+
+				// Adiciona mais um pequeno intervalo de espera antes de exibir o dano
+				try {
+					Thread.sleep(5000); // Espera mais 1 segundo
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+
 				// Turno do jogador (dano recalculado)
 				double danoJogador = alquimista.atacar();
 				System.out.println("\n" + alquimista.getNome() + " ataca o boss com " + danoJogador + " de dano.");
@@ -117,11 +156,30 @@ public class Jogo {
 			if (alquimista.estaVivo()) {
 				// Se o alquimista estiver vivo, ele venceu
 				System.out.println("\n" + alquimista.getNome() + " Mandou o Oponente para o Lobby!");
-				System.out.println("O Boss foi jogar no Vasco.");
+				System.out.println(" __     _____ _____ ___  ____  ___    _    _   _ ");
+				System.out.println("\\ \\   / /_ _|_   _/ _ \\|  _ \\|_ _|  / \\  | | | |");
+				System.out.println(" \\ \\ / / | |  | || | | | |_) || |  / _ \\ | | | |");
+				System.out.println("  \\ V /  | |  | || |_| |  _ < | | / ___ \\|_| |_|");
+				System.out.println("   \\_/  |___| |_| \\___/|_| \\_\\___/_/   \\_(_) (_)\n");
+				
+				
 			} else {
 				// Caso contrário, o boss venceu
-				System.out.println("\nO Boss Mandou o "+ alquimista.getNome() +" para o Lobby!");
-				System.out.println(alquimista.getNome() + " foi jogar no Vasco.");
+				System.out.println("\nO Boss Mandou o " + alquimista.getNome() + " para o Lobby!");
+				System.out.println(" ____  _____ ____  ____   ___ _____  _    _   _ ");
+				System.out.println("|  _ \\| ____|  _ \\|  _ \\ / _ \\_   _|/ \\  | | | |");
+				System.out.println("| | | |  _| | |_) | |_) | | | || | / _ \\ | | | |");
+				System.out.println("| |_| | |___|  _ <|  _ <| |_| || |/ ___ \\|_| |_|");
+				System.out.println("|____/|_____|_| \\_\\_| \\_\\\\___/ |_/_/   \\_(_) (_)");
+				
+				
+			}
+
+
+			try {
+				Thread.sleep(2000); // Espera 1 segundo para aumentar a tensão
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 
 			// Pergunta ao jogador se deseja jogar novamente

@@ -29,7 +29,7 @@ public class BossReal {
 	// Método para o Boss atacar, com dano aumentado
 	public double atacar() {
 		// Aumentando o dano do Boss para um intervalo entre 30 e 80
-		double danoBoss = 20 + random.nextDouble() * 20;  // Dano entre 20 e 40
+		double danoBoss = 30 + random.nextDouble() * 30;  // Dano entre 20 e 40
 		return danoBoss;
 	}
 }
